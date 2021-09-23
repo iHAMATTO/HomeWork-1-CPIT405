@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Small Quiz#2</title>
+</head>
+<style>
+    .hover:hover {
+        border-color:blue;
+        size: 3px;
+
+    }
+    .dash {
+    list-style-type: none;
+  }
+
+  .dash li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -20px;
+  }
+</style>
+
+
+<body>
+    <h1>Which one of the following are showing in the image below:</h1>
+    <ul class="dash">
+        <li>ul Tags</li>
+        <li>Merged cells</li>
+        <li>Radio Buttons</li>
+        <li>Sub and Sup Tags</li>
+    </ul>
+    <br><br>
+    <p>By Clinking on the image, the region shold hyperlink (selected) and the corerect answer should apper by hovering
+        the mouse on the result.</p> <br>
+
+    <div>
+        <table border="1">
+
+            <tr>
+                <td title="Sub and Sup" class="hover">
+                    <h1>the following Equation is:</h1> <br>
+                    <center>X<sub>1</sub>+X<sub>1</sub>=2X<sub>1</sub> <br> X * X = X<sup>2</sup></center> <br>
+                </td>
+                <td class="hover" title="ul Tags">
+                    <h1>My favorite Drinks:</h1>
+                    <ul>
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Milk</li>
+                    </ul>
+                </td>
+            </tr>
+
+
+            <tr >
+                <td class="hover" title="Radio Buttons">
+                    <h1>Look at the following</h1>
+                    <p>Please select your gender</p>
+                    <label for=""><input id="gender" name="gender" type="radio" value="Male">Male</label> <br>
+                    <label for=""><input id="gender" name="gender" type="radio" value="Female">Female</label> <br>
+                    <p>Please select your age:</p>
+                    <label for=""><input id="Age" name="Age" type="radio" value="1">0-30</label> <br>
+                    <label for=""><input id="Age" name="Age" type="radio" value="2">31-60</label> <br>
+                    <label for=""><input id="Age" name="Age" type="radio" value="3">61-100</label> <br>
+
+                </td> <br>
+
+                <td class="hover" title="Merged cells" >
+                    <center>
+                        <table border="1" >
+
+                            <tr>
+
+                                <th>Month</th>
+                                <th>Saving</th>
+                                <th>Saving for holday!</th>
+
+                            </tr>
+
+                            <td>
+                                Janury
+                            </td>
+                            <td>
+                                $100
+                            </td>
+
+                            <td rowspan="2" colspan="2">$100</td>
+
+                            <tr>
+                                <td>
+                                    February
+                                </td>
+                                <td>
+                                    $80
+                                </td>
+                            </tr>
+
+                        </table>
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <br><br>
+    <a href="Homework.html">Go back to Homework webpage</a> <br><br><br>
+
+</body>
+
+</html>
